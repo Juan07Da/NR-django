@@ -23,10 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-lzad^8o=a86025v!n9pk9kp_duci#%bcx+irc9qd9@yepns5y='
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
-    'djangopruebasdemiproyecto0707-hxcjgnebb7bge5ge.eastus-01.azurewebsites.net',
+    'djangopruebasenazure-dqbfh6e4dhcrfjgf.eastus-01.azurewebsites.net',
     # Puedes mantener '127.0.0.1' y 'localhost' si también lo usas localmente
     '127.0.0.1',
     'localhost',

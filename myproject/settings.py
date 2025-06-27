@@ -27,10 +27,13 @@ SECRET_KEY = 'django-insecure-lzad^8o=a86025v!n9pk9kp_duci#%bcx+irc9qd9@yepns5y=
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '*',
-    # Puedes mantener '127.0.0.1' y 'localhost' si también lo usas localmente
+    'djangopruebasenazure-dqbfh6e4dhcrfjgf.eastus-01.azurewebsites.net',
     '127.0.0.1',
     'localhost',
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://djangopruebasenazure-dqbfh6e4dhcrfjgf.eastus-01.azurewebsites.net'
 ]
 
 
